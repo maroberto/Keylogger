@@ -22,3 +22,4 @@ def monitor(key):
 
 with Listener(on_release=monitor) as listener:
     listener.join()
+
